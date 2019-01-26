@@ -19,5 +19,23 @@
 .sidebar .wrapper-menu .sub-menu-four {
   list-style-type: none;
 }
+.sidebar .wrapper-menu .menu {
+  padding: 15px;
+  font-family: "Quicksand", sans-serif;
+  overflow: auto;
+  cursor: pointer;
+}
+.sidebar .wrapper-menu .menu .fas {
+  color: #000;
+}
+.sidebar .wrapper-menu .menu a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sidebar .wrapper-menu .menu a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

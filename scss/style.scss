@@ -44,5 +44,27 @@ $ambient-color : orange;
         .sub-menu-four {
             list-style-type: none;
         }
+
+        .menu {
+            padding: 15px;
+            font-family: $second-font;
+            overflow: auto;
+            cursor: pointer;
+
+            .fas {
+                color: #000;
+            }
+
+            a {
+                color: #333;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            a:hover {
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
     }
 }
