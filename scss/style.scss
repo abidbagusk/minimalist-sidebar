@@ -6,6 +6,21 @@ sans-serif;
 $main-color : #fdfdfd;
 $ambient-color : orange;
 
+// create mixin for all submenu
+@mixin submenu {
+    padding-top: 10px;
+    padding-left: 25px;
+
+    li {
+        padding-bottom: 5px;
+
+        a {
+            color: #333;
+            font-size: 14px;
+        }
+    }
+}
+
 .sidebar {
     height: 100vh;
     position: fixed;
