@@ -65,6 +65,19 @@ $ambient-color : orange;
                 font-weight: bold;
                 text-decoration: none;
             }
+
+            .sub-menu-one,
+            .sub-menu-two,
+            .sub-menu-three,
+            .sub-menu-four {
+                @include submenu;
+            }
+
+            .sub-menu-two,
+            .sub-menu-three,
+            .sub-menu-four {
+                display: none;
+            }
         }
     }
 }

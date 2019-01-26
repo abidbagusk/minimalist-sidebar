@@ -37,5 +37,30 @@
   font-weight: bold;
   text-decoration: none;
 }
+.sidebar .wrapper-menu .menu .sub-menu-one,
+.sidebar .wrapper-menu .menu .sub-menu-two,
+.sidebar .wrapper-menu .menu .sub-menu-three,
+.sidebar .wrapper-menu .menu .sub-menu-four {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.sidebar .wrapper-menu .menu .sub-menu-one li,
+.sidebar .wrapper-menu .menu .sub-menu-two li,
+.sidebar .wrapper-menu .menu .sub-menu-three li,
+.sidebar .wrapper-menu .menu .sub-menu-four li {
+  padding-bottom: 5px;
+}
+.sidebar .wrapper-menu .menu .sub-menu-one li a,
+.sidebar .wrapper-menu .menu .sub-menu-two li a,
+.sidebar .wrapper-menu .menu .sub-menu-three li a,
+.sidebar .wrapper-menu .menu .sub-menu-four li a {
+  color: #333;
+  font-size: 14px;
+}
+.sidebar .wrapper-menu .menu .sub-menu-two,
+.sidebar .wrapper-menu .menu .sub-menu-three,
+.sidebar .wrapper-menu .menu .sub-menu-four {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
