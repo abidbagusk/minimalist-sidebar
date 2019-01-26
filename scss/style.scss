@@ -96,3 +96,78 @@ $ambient-color : orange;
         }
     }
 }
+
+// style for sidenav
+.navbar-mobile {
+    padding-right: 20px;
+
+    @media screen and (min-width: 600px) {
+        display: none;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background: #212121;
+
+    .close-btn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: orange;
+        text-decoration: none;
+    }
+
+    .menu,
+    .sub-menu-one,
+    .sub-menu-two,
+    .sub-menu-three,
+    .sub-menu-four {
+        list-style-type: none;
+    }
+
+    .menu {
+        padding: 15px;
+        font-family: $second-font;
+        overflow: auto;
+        cursor: pointer;
+
+        .fas {
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .sub-menu-one,
+        .sub-menu-two,
+        .sub-menu-three,
+        .sub-menu-four {
+            @include submenu;
+        }
+
+        .sub-menu-two,
+        .sub-menu-three,
+        .sub-menu-four {
+            display: none;
+        }
+    }
+}

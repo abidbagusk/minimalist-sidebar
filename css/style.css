@@ -77,4 +77,85 @@
   display: none;
 }
 
+.navbar-mobile {
+  padding-right: 20px;
+}
+@media screen and (min-width: 600px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background: #212121;
+}
+.sidenav .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: orange;
+  text-decoration: none;
+}
+.sidenav .menu,
+.sidenav .sub-menu-one,
+.sidenav .sub-menu-two,
+.sidenav .sub-menu-three,
+.sidenav .sub-menu-four {
+  list-style-type: none;
+}
+.sidenav .menu {
+  padding: 15px;
+  font-family: "Quicksand", sans-serif;
+  overflow: auto;
+  cursor: pointer;
+}
+.sidenav .menu .fas {
+  color: #fff;
+}
+.sidenav .menu a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sidenav .menu a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+.sidenav .menu .sub-menu-one,
+.sidenav .menu .sub-menu-two,
+.sidenav .menu .sub-menu-three,
+.sidenav .menu .sub-menu-four {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.sidenav .menu .sub-menu-one li,
+.sidenav .menu .sub-menu-two li,
+.sidenav .menu .sub-menu-three li,
+.sidenav .menu .sub-menu-four li {
+  padding-bottom: 5px;
+}
+.sidenav .menu .sub-menu-one li a,
+.sidenav .menu .sub-menu-two li a,
+.sidenav .menu .sub-menu-three li a,
+.sidenav .menu .sub-menu-four li a {
+  color: #333;
+  font-size: 14px;
+}
+.sidenav .menu .sub-menu-two,
+.sidenav .menu .sub-menu-three,
+.sidenav .menu .sub-menu-four {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
