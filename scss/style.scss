@@ -98,10 +98,10 @@ $ambient-color : orange;
 }
 
 // style for sidenav
-.navbar-mobile {
-    padding-right: 20px;
+#navbar-mobile {
+    padding-right: 30px;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 768px) {
         display: none;
     }
 }
@@ -118,7 +118,7 @@ $ambient-color : orange;
     padding-top: 60px;
     background: #212121;
 
-    .close-btn {
+    .closebtn {
         position: absolute;
         top: 0;
         right: 25px;
@@ -142,12 +142,17 @@ $ambient-color : orange;
         overflow: auto;
         cursor: pointer;
 
+        .list-active-onMobile {
+            font-weight: bold;
+            color: orange !important;
+        }
+
         .fas {
             color: #fff;
         }
 
         a {
-            color: #fff;
+            color: #fff !important;
             font-size: 14px;
             text-decoration: none;
         }

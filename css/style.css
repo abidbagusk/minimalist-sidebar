@@ -77,11 +77,11 @@
   display: none;
 }
 
-.navbar-mobile {
-  padding-right: 20px;
+#navbar-mobile {
+  padding-right: 30px;
 }
-@media screen and (min-width: 600px) {
-  .navbar-mobile {
+@media screen and (min-width: 768px) {
+  #navbar-mobile {
     display: none;
   }
 }
@@ -98,7 +98,7 @@
   padding-top: 60px;
   background: #212121;
 }
-.sidenav .close-btn {
+.sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -120,11 +120,15 @@
   overflow: auto;
   cursor: pointer;
 }
+.sidenav .menu .list-active-onMobile {
+  font-weight: bold;
+  color: orange !important;
+}
 .sidenav .menu .fas {
   color: #fff;
 }
 .sidenav .menu a {
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
   text-decoration: none;
 }

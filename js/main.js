@@ -6,23 +6,26 @@ $(document).ready(function () {
             });
         });
         e.preventDefault();
+        e.stopPropagation();
     });
     $('.wrapper-submenu-two').click(function (e) {
         $('.sub-menu-one').slideUp(400, function () {
-            $('.sub-menu-two').slideToggle(500, function () {
+            $('.sub-menu-two').slideDown(500, function () {
                 $('.sub-menu-three').slideUp(400);
             });
         });
         e.preventDefault();
+        e.stopPropagation();
     });
 
     $('.wrapper-submenu-three').click(function (e) {
         $('.sub-menu-one').slideUp(400, function () {
-            $('.sub-menu-three').slideToggle(500, function () {
+            $('.sub-menu-three').slideDown(500, function () {
                 $('.sub-menu-two').slideUp(400);
             });
         });
         e.preventDefault();
+        e.stopPropagation();
     });
 
 });

@@ -100,7 +100,7 @@
 
     <!-- Make sidebar Responsive on any device -->
     <div class="sidenav" id="mySidenav">
-        <a href="" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav();">&times;</a>
 
         <div class="wrapper-menu">
             <ul class="menu">
@@ -132,7 +132,7 @@
                 <li class="wrapper-submenu-two">
                     <a href="">AWWARD</a>
                     <i class="fas fa-sort-down uk-float-right"></i>
-                    <ul class="sub-mennu-two">
+                    <ul class="sub-menu-two">
                         <li>
                             <a href="">NATIONAL</a>
                         </li>
@@ -174,7 +174,7 @@
     </div>
 
     <!-- create navbar -->
-    <nav class="uk-navbar-container navbar-mobile" uk-navbar>
+    <nav class="uk-navbar-container" uk-navbar id="navbar-mobile">
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li class="uk-active">
