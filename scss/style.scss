@@ -40,6 +40,10 @@ $ambient-color : orange;
     padding: 30px 20px;
     background-color: $main-color;
 
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+
     .wrapper-menu {
         p {
             font-family: $second-font;

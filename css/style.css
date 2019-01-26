@@ -15,6 +15,11 @@
   padding: 30px 20px;
   background-color: #f8f8f8;
 }
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
 .sidebar .wrapper-menu p {
   font-family: "Quicksand", sans-serif;
   color: #777;
