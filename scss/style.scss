@@ -28,4 +28,21 @@ $ambient-color : orange;
     border-right: .5px dotted #fefefe;
     padding: 30px 20px;
     background-color: $main-color;
+
+    .wrapper-menu {
+        p {
+            font-family: $second-font;
+            color: #777;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .menu,
+        .sub-menu-one,
+        .sub-menu-two,
+        .sub-menu-three,
+        .sub-menu-four {
+            list-style-type: none;
+        }
+    }
 }

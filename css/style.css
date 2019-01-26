@@ -6,5 +6,18 @@
   padding: 30px 20px;
   background-color: #fdfdfd;
 }
+.sidebar .wrapper-menu p {
+  font-family: "Quicksand", sans-serif;
+  color: #777;
+  text-align: center;
+  font-size: 14px;
+}
+.sidebar .wrapper-menu .menu,
+.sidebar .wrapper-menu .sub-menu-one,
+.sidebar .wrapper-menu .sub-menu-two,
+.sidebar .wrapper-menu .sub-menu-three,
+.sidebar .wrapper-menu .sub-menu-four {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=style.css.map */
