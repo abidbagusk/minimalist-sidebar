@@ -2,13 +2,18 @@
   border: 0.5px solid #999;
 }
 
+.list-active {
+  font-weight: bold;
+  color: orange !important;
+}
+
 .sidebar {
   height: 100vh;
   position: fixed;
   width: 200px;
   border-right: 0.5px dotted #fefefe;
   padding: 30px 20px;
-  background-color: #fdfdfd;
+  background-color: #f8f8f8;
 }
 .sidebar .wrapper-menu p {
   font-family: "Quicksand", sans-serif;

@@ -3,7 +3,7 @@ $main-font : 'Titillium Web',
 sans-serif;
 $second-font: 'Quicksand',
 sans-serif;
-$main-color : #fdfdfd;
+$main-color : #f8f8f8;
 $ambient-color : orange;
 
 // create mixin for all submenu
@@ -24,6 +24,12 @@ $ambient-color : orange;
 // create strip to divide each submenu
 .strip {
     border: .5px solid #999;
+}
+
+// add active submenu
+.list-active {
+    font-weight: bold;
+    color: $ambient-color !important;
 }
 
 .sidebar {
