@@ -1,3 +1,7 @@
+.strip {
+  border: 0.5px solid #999;
+}
+
 .sidebar {
   height: 100vh;
   position: fixed;

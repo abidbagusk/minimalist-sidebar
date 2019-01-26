@@ -21,6 +21,11 @@ $ambient-color : orange;
     }
 }
 
+// create strip to divide each submenu
+.strip {
+    border: .5px solid #999;
+}
+
 .sidebar {
     height: 100vh;
     position: fixed;
