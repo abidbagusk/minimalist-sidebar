@@ -5,3 +5,12 @@ $second-font: 'Quicksand',
 sans-serif;
 $main-color : #fdfdfd;
 $ambient-color : orange;
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+    border-right: .5px dotted #fefefe;
+    padding: 30px 20px;
+    background-color: $main-color;
+}
